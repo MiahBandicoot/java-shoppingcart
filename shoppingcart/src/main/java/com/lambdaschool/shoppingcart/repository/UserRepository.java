@@ -19,6 +19,8 @@ public interface UserRepository
      */
     User findByUsername(String username);
 
+    User findByName(String name);
+
     /**
      * Find all users whose name contains a given substring ignoring case
      *
